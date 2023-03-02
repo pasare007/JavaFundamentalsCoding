@@ -77,7 +77,6 @@ public class ComplexNumber {
     public void add(ComplexNumber other) {
         this.real +=other.getReal();
         this.imaginary += other.getImaginary();
-
     }
     public void subtract(double real, double imaginary) {
         this.imaginary -= imaginary;
@@ -86,7 +85,5 @@ public class ComplexNumber {
     public void subtract(ComplexNumber other){
         this.real -=other.getReal();
         this.imaginary -= other.getImaginary();
-
-
     }
 }

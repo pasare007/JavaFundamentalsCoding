@@ -30,6 +30,7 @@ public class FactorPrinter {
         printFactors(-1);
         printFactors(10);
         printFactors(32);
+        printFactors(100);
     }
 
     public static void printFactors(int number) {

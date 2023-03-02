@@ -26,6 +26,8 @@ public class Main {
         System.out.println("c7 real part is "+ c7.getReal());
         System.out.println("c7 imaginary part is " + c7.getImaginary());
 
+        ComplexNumber c8 = new ComplexNumber(43.43, 500.42);
+
     }
 
 
